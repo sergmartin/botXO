@@ -1,6 +1,6 @@
 from telegram.ext import ConversationHandler
 
-from utils import keyboard
+from buttons import keyboard
 
 board = list(range(1, 10))
 
