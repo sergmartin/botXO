@@ -3,7 +3,7 @@ from telegram.ext import Updater, MessageHandler, Filters, CommandHandler, Conve
     messagequeue as mq
 
 from game import sim_o, sim_x, start_game
-from settings import TOKEN_FOR_BOT
+from toc import TOKEN_FOR_BOT
 
 
 def start(bot, update):
